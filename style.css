@@ -568,6 +568,9 @@ footer span a:hover{
     .max-width{
         padding: 0 50px;
     }
+    .home{
+        background: url(./images/banner2.jpg) no-repeat center;
+    }
 }
 @media (max-width: 947px){
     .menu-btn{
@@ -649,6 +652,9 @@ footer span a:hover{
     }
     .services .serv-content .card{
         width: 100%;
+    }
+    .home{
+        
     }
 }
 
