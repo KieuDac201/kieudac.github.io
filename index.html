@@ -9,6 +9,7 @@
     <!-- <title>Personal Portfolio Website</title> -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
@@ -24,10 +25,10 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo">
+            <div class="logo" data-aos="fade-right">
                 <a href="#">Portfo<span>lio.</span></a>
             </div>
-            <ul class="menu">
+            <ul class="menu" data-aos="fade-left" >
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <li><a href="#services" class="menu-btn">Services</a></li>
@@ -35,7 +36,7 @@
                 <li><a href="#teams" class="menu-btn">Teams</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
-            <div class="menu-btn">
+            <div class="menu-btn" data-aos="fade-left" data-aos-delay="200">
                 <i class="fas fa-bars"></i>
             </div>
         </div>
@@ -44,7 +45,7 @@
     <!-- home section start -->
     <section class="home" id="home">
         <div class="max-width">
-            <div class="home-content">
+            <div class="home-content" data-aos="fade-right" data-aos-delay="400">
                 <div class="text-1">
                     Hello, my name is</div>
                 <div class="text-2">
@@ -62,10 +63,10 @@
             <h2 class="title">
                 About me</h2>
             <div class="about-content">
-                <div class="column left">
+                <div class="column left" data-aos="fade-right">
                     <img src="./images/dac.jpg" alt="">
                 </div>
-                <div class="column right">
+                <div class="column right" data-aos="fade-left">
                     <div class="text">
                         I'm Kieu Dac and I'm a <span class="typing-2"></span></div>
                     <p>
@@ -86,7 +87,7 @@
             <h2 class="title">
                 My services</h2>
             <div class="serv-content">
-                <div class="card">
+                <div class="card" data-aos="zoom-out">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
                         <div class="text">
@@ -96,7 +97,7 @@
                             enim.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-out">
                     <div class="box">
                         <i class="fas fa-chart-line"></i>
                         <div class="text">
@@ -106,7 +107,7 @@
                             enim.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-out">
                     <div class="box">
                         <i class="fas fa-code"></i>
                         <div class="text">
@@ -127,7 +128,7 @@
             <h2 class="title">
                 My skills</h2>
             <div class="skills-content">
-                <div class="column left">
+                <div class="column left" data-aos="fade-right">
                     <div class="text">
                         My creative skills & experiences.</div>
                     <p>
@@ -137,7 +138,7 @@
                         alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
                     <a href="https://www.facebook.com/Dac.dep/" target="_blank">Read more</a>
                 </div>
-                <div class="column right">
+                <div class="column right" data-aos="fade-left">
                     <div class="bars">
                         <div class="info">
                             <span>HTML</span>
@@ -189,7 +190,7 @@
             <h2 class="title">
                 My Idol</h2>
             <div class="carousel owl-carousel">
-                <div class="card">
+                <div class="card" data-aos="zoom-in">
                     <div class="box">
                         <img src="./images/rose.jpg" alt="">
                         <div class="text">
@@ -198,7 +199,7 @@
                             Roseanne Park is a New Zealand singer based in South Korea.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in">
                     <div class="box">
                         <img src="./images/kevin.jpg" alt="">
                         <div class="text">
@@ -207,7 +208,7 @@
                             Kevin De Bruyne is a Belgian professional footballer</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in">
                     <div class="box">
                         <img src="./images/jack.jpg" alt="">
                         <div class="text">
@@ -216,7 +217,7 @@
                             Jack is a singer, musician and rapper Viet Nam</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in">
                     <div class="box">
                         <img src="./images/cr7.jpg" alt="">
                         <div class="text">
@@ -225,7 +226,7 @@
                             Cristiano Ronaldo is a Portuguese professional footballer.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in">
                     <div class="box">
                         <img src="./images/a.jpg" alt="">
                         <div class="text">
@@ -244,7 +245,7 @@
             <h2 class="title">
                 Contact me</h2>
             <div class="contact-content">
-                <div class="column left">
+                <div class="column left" data-aos="fade-right">
                     <div class="text">
                         Get in Touch</div>
                     <p>
@@ -280,7 +281,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column right">
+                <div class="column right" data-aos="fade-left">
                     <div class="text">
                         Message me</div>
                     <form action="#">
@@ -315,6 +316,10 @@
 
     <!-- Somehow I got an error, so I comment the script tag, just uncomment to use -->
     <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
