@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+ .tableContainer {
+    width: 100%;
+    max-width: 700px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 0;
+    margin: 0;
+    padding: 5px 15px 15px;
+    list-style: none;
+    margin: 15px auto;
+ }
+ .tableContainer:empty {
+    display: none !important;
+ }
+ li {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    display: flex;
+ }
+ 
+ li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+ }
+ li span {
+    display: inline-flex;
+    width: 100%;
+    padding: 0 10px;
+    align-items: center;            
+    transition: all 0.3s ease
+ }
+ li:hover span {
+    background-color: #e6e6e6;
+ }
+ .toDoHeading {
+    max-width: 25%;
+    border-right: 1px solid #eee;
+ }
+ .toDoNumber {
+    font-weight: 700;
+    max-width: 40px;
+ }
+ .deleteButton {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    position: relative;
+    top: 0;
+    /* background-color: #e6e6e6; */
+    cursor: pointer;
+    transition: all 0.3s ease
+ }
+ .deleteButton:hover { background-color: red; }
+ .deleteButton:hover svg { stroke: white; }
+ 
+ .inputContainer {
+    margin: 0 auto 20px;
+    max-width: 700px;
+    padding: 10px 0;
+ }
+ .inputContainer input {
+    height: 40px;
+ }
+ .inputContainer input,
+ .inputContainer textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+ }
+ .inputContainer button {
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+ }
